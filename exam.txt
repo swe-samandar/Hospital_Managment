@@ -1,0 +1,32 @@
+                                ***    GPT dan foydalangan komanda 0 ball    ***
+
+Proyekt mavzusi:   *** Shifoxona Menejment Tizimi ***
+
+Funksiyalari:
+    Shifokorlar va bemorlarni ro‘yxatga olish.
+    Xonalarni boshqarish va bandlik holatini kuzatish.
+    Bemorlar uchun uchrashuvlarni rejalashtirish.
+    Bemorlar holati va davolanish tarixini ko‘rish.
+    Shifokorlar, bemorlar va uchrashuvlar ro‘yxatini ko‘rsatish.
+
+Klasslari:
+    Doctor: Shifokorlar haqida ma’lumotni saqlash.
+    Patient: Bemorlar haqida ma’lumotni saqlash.
+    Appointment: Uchrashuvlar haqida ma’lumotni boshqarish.
+    HospitalManager: Shifoxona tizimini boshqaruvchi funksiyalarni o‘z ichiga olgan klass.
+
+Project shartlari:
+    1.Clean code
+    2.magic methodlardan foydalanish kerak
+    3.decorator
+    4.class atribute
+
+
+Prezentatsiya mavzusi:  *** Async i/o, References ***
+
+Prezentatsiya  shartlari:
+    1.Kamida 10 page
+    2.Rasmlar va hayotiy misollar bilan tushuntirilgan bolishi kerak.
+    3.Kodlar orqali ham tushuntirilgan bolishi kerak
+
+ 
