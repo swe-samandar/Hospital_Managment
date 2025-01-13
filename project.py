@@ -21,12 +21,44 @@ Project shartlari:
     4.class atribute
 """
 
+# class Doctor:
+#     pass
+
+
+# class Patient:
+#     pass
+
+
+# class Appointment:
+#     pass
+
+
+# class HospitalManager:
+#     pass
+
+
 class Doctor:
-    pass
+    def __init__(self, doctor_name, doctor_status):
+        self.__doctor_name = doctor_name
+        self.__doctor_status = doctor_status
+    
+    def __str__(self):
+        return f"Shifokorning ism sharifi: {self.__doctor_name}, hozirda doktor {self.__doctor_status} da"
 
 
 class Patient:
-    pass
+    def __init__(self, ismi, kasalligi, davolanish, doktor_nazorati, narx):
+        self.__ismi = ismi
+        self.__kasalligi = kasalligi
+        self.__davolanish = davolanish
+        self.doktor_nazorati = doktor_nazorati
+        self.narx = narx
+    
+    def __str__(self):
+        return f"Bemorning ismi: {self.__ismi}, bemorning bezovta qilayotgan kasalligi {self.__kasalligi} va ushbu bemorninig /
+          davolanish davomiyligi {self.__davolanish}. Ushbu bemorni {self.doktor_nazorati} / davolayapdi"
+
+    # def 
 
 
 class Appointment:
@@ -35,3 +67,6 @@ class Appointment:
 
 class HospitalManager:
     pass
+
+
+doctor = Doctor("ruslan master")
