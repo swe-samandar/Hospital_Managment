@@ -107,11 +107,13 @@ class Hospital:
 
 doctor_1 = Doctor("Abdurauf Islomov", "Ishda")
 doctor_2 = Doctor("Ra'no Abdurashidova", "Bemor bilan suhbat olib bormoqda")
-doctor_3 = Doctor("Qodirbek Tursunov", "Ta'tilda")
-doctor_4 = Doctor("Tursunbek Arslonxonov", "Ishda")
+doctor_3 = Doctor("Tursunbek Arslonxonov", "Ishda")
+# doctor_4 = Doctor("Qodirbek Tursunov", "Ta'tilda")
+# doctor_5 = Doctor("Alibek Turdiyev", "Ishda")
 
 patient_1 = Patient("Abduqodir", "Qon bosimi", 12, "Tursunbek Arslonxonov", 1_200_000)
 patient_2 = Patient("Farida", "Bosh og'rig'i", 2, "Abdurauf Islomov", 100_000)
+# patient_3 = Patient("Ruslan", "Tomoq og'rig'i", 3, "Alibek Turdiyev", 100_000)
 
 appointment_1 = Appointment("2025-yil 18-yanvar", "12:30","Abdurauf Islomov", "Farida")
 appointment_2 = Appointment("2025-yil 19-yanvar", "13:00", "Tursunbek Arslonxonov", "Abduqodir")
@@ -123,9 +125,11 @@ Hospital.doctor_qush(doctor_4)
 
 Hospital.appointment_qush(appointment_1)
 Hospital.appointment_qush(appointment_2)
+# Hospital.appointment_qush(appointment_3)
 
 Hospital.patient_qush(patient_1)
 Hospital.patient_qush(patient_2)
+# Hospital.patient_qush(patient_3)
 
 Hospital.doctorlar()
 Hospital.bemorlar()
